@@ -2323,5 +2323,40 @@ blockquote {
     .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
         height: 432px !important;
     }
-
+/* Style for form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style for form labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for form inputs */
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for submit button */
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
 }
